@@ -1,0 +1,152 @@
+
+body{
+    margin: 0;
+}
+.first_block{
+    height: 100vh;
+    background-image: url('../img/masthead.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+    height: inherit;
+
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid;
+    color: #ffffff85;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.logo_text{
+    padding: 0px 11px;
+    margin: 0;
+    border-right: 1px solid #ffffff85;
+}
+    .phone-number{
+        padding: 20px;
+    }
+
+
+.menu{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+}
+.menu-item{
+    color: inherit;
+    text-decoration: none;
+    padding: 4px 10px;
+}
+.menu-item.bold{
+    font-weight: bold;
+    color: #FFF;
+}
+.menu-item:hover {
+    color: #ffffffd9;
+    background: #ffffff85;
+    border-radius: 5px;
+}
+.first_block--body{
+    padding: 0px;
+    margin: 215px 0px 0px 0px;
+    color: #ffffffba;
+    font-family: Roboto;
+   
+
+}
+.first_block-btn{
+    border-radius: 4px;
+    color: #fff;
+    background: #008000bf;
+    width: 162px;
+    height: 42px;
+    text-align: center;
+   border: none;
+   font-size: 16px;
+}
+.best{
+color: #0f5f5c;
+font-family: Roboto;
+text-align: center; 
+margin: 52px 497px;
+border-bottom: 1px  solid green;
+height: 50px;
+
+}
+.second_block{
+    color: #0f5f5c;
+    font-family: Roboto;
+    text-align: center;
+    list-style-type: none;
+    }
+    .line-g{
+        height: 90px;
+        width: 1px;
+        background-color: green;
+        margin: 0 auto;
+    }
+    .line-v{
+        height: 1px;
+        width: 60px;
+        background-color: green;
+        margin: 0 auto;
+    }
+    
+.features-item{
+    color: #0f5f5c;
+    list-style-type: none;
+    display: block;
+    
+    
+    
+    
+}
+.features{
+    color: #0f5f5c;
+    display: flex;
+    justify-content: space-around;
+   }
+   .second-features{
+    color: #0f5f5c;
+    display: flex;
+    justify-content: space-around;
+    margin: 70px
+   }
+.second-features-item{
+    color: #0f5f5c;
+    list-style-type: none;
+    display: block; 
+       
+}
+.third-features{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.stick-row1{
+    color: #0f5f5c;
+    list-style-type: none;
+    display: block;
+     
+    padding: 64px;
+    margin: 40px;
+}
+.stick-column1{
+    color: #0f5f5c;
+    list-style-type: none;
+    display: block;  
+    
+}
